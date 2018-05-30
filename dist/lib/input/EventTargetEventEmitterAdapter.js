@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var _ = require("../misc/Util");
-var EventTargetEventEmitterAdapter = (function () {
+var EventTargetEventEmitterAdapter = /** @class */ (function () {
     function EventTargetEventEmitterAdapter(target) {
         this.target = target;
     }

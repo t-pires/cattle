@@ -5,7 +5,7 @@ var Rect_1 = require("../../geom/Rect");
 var Point_1 = require("../../geom/Point");
 var Dom = require("../../misc/Dom");
 var Tether = require("tether");
-var ClickZoneExtension = (function () {
+var ClickZoneExtension = /** @class */ (function () {
     function ClickZoneExtension() {
     }
     Object.defineProperty(ClickZoneExtension.prototype, "isSelecting", {

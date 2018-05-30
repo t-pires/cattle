@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * Provides a by-the-book implementation of GridRow.
  */
-var DefaultGridRow = (function () {
+var DefaultGridRow = /** @class */ (function () {
     /**
      * Initializes a new instance of DefaultGridRow.
      *

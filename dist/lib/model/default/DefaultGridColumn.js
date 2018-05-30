@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * Provides a by-the-book implementation of GridColumn.
  */
-var DefaultGridColumn = (function () {
+var DefaultGridColumn = /** @class */ (function () {
     /**
      * Initializes a new instance of DefaultGridColumn.
      *

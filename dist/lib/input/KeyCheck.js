@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Tracker;
-var KeyCheck = (function () {
+var KeyCheck = /** @class */ (function () {
     function KeyCheck() {
     }
     KeyCheck.init = function () {

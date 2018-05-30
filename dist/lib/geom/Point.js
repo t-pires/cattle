@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var Point = (function () {
+var Point = /** @class */ (function () {
     function Point(x, y) {
         this.x = 0;
         this.y = 0;

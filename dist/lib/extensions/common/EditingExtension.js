@@ -33,7 +33,7 @@ var Vectors = {
     e: new Point_1.Point(1, 0),
     w: new Point_1.Point(-1, 0),
 };
-var GridChangeSet = (function () {
+var GridChangeSet = /** @class */ (function () {
     function GridChangeSet() {
         this.data = {};
     }
@@ -67,7 +67,7 @@ var GridChangeSet = (function () {
     return GridChangeSet;
 }());
 exports.GridChangeSet = GridChangeSet;
-var EditingExtension = (function () {
+var EditingExtension = /** @class */ (function () {
     function EditingExtension() {
         this.isEditing = false;
         this.isEditingDetailed = false;
@@ -242,7 +242,7 @@ var EditingExtension = (function () {
     return EditingExtension;
 }());
 exports.EditingExtension = EditingExtension;
-var Input = (function (_super) {
+var Input = /** @class */ (function (_super) {
     __extends(Input, _super);
     function Input() {
         return _super !== null && _super.apply(this, arguments) || this;

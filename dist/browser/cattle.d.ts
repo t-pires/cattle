@@ -1,6 +1,9 @@
 
 declare namespace cattle {
+    export {};
 
+    
+    
     export class ClipboardExtension implements GridExtension {
         private grid;
         private layer;

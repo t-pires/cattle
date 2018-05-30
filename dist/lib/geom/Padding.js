@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Util_1 = require("../misc/Util");
-var Padding = (function () {
+var Padding = /** @class */ (function () {
     function Padding(top, right, bottom, left) {
         this.top = Util_1.coalesce(top, 0);
         this.right = Util_1.coalesce(right, this.top);

@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 /**
  * Implements the core of the Grid extensibility system.
  */
-var GridKernel = (function () {
+var GridKernel = /** @class */ (function () {
     function GridKernel(emitter) {
         this.emitter = emitter;
         this.commands = new GridKernelCommandHubImpl();
@@ -48,7 +48,7 @@ var GridKernel = (function () {
     return GridKernel;
 }());
 exports.GridKernel = GridKernel;
-var GridKernelCommandHubImpl = (function () {
+var GridKernelCommandHubImpl = /** @class */ (function () {
     function GridKernelCommandHubImpl() {
         this.store = {};
     }
@@ -79,7 +79,7 @@ var GridKernelCommandHubImpl = (function () {
     };
     return GridKernelCommandHubImpl;
 }());
-var GridKernelRoutineHubImpl = (function () {
+var GridKernelRoutineHubImpl = /** @class */ (function () {
     function GridKernelRoutineHubImpl() {
         this.hooks = {};
         this.overrides = {};
@@ -122,7 +122,7 @@ var GridKernelRoutineHubImpl = (function () {
     };
     return GridKernelRoutineHubImpl;
 }());
-var GridKernelVariableHubImpl = (function () {
+var GridKernelVariableHubImpl = /** @class */ (function () {
     function GridKernelVariableHubImpl() {
         this.store = {};
     }

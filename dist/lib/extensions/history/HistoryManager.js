@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var DefaultHistoryManager = (function () {
+var DefaultHistoryManager = /** @class */ (function () {
     function DefaultHistoryManager() {
         this.future = [];
         this.past = [];

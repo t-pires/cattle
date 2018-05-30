@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var start = new Date().getTime().toString();
 var count = 0;
-var RefGen = (function () {
+var RefGen = /** @class */ (function () {
     function RefGen() {
     }
     RefGen.next = function (prefix) {

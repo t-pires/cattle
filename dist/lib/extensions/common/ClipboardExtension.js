@@ -34,7 +34,7 @@ var clipboard = require("clipboard-js");
 //I know... :(
 //const NewLine = !!window.navigator.platform.match(/.*[Ww][Ii][Nn].*/) ? '\r\n' : '\n';
 var NewLine = '\r\n';
-var ClipboardExtension = (function () {
+var ClipboardExtension = /** @class */ (function () {
     function ClipboardExtension() {
         this.copyList = [];
         this.copyRange = GridRange_1.GridRange.empty();
@@ -196,7 +196,7 @@ var ClipboardExtension = (function () {
     return ClipboardExtension;
 }());
 exports.ClipboardExtension = ClipboardExtension;
-var CopyNet = (function (_super) {
+var CopyNet = /** @class */ (function (_super) {
     __extends(CopyNet, _super);
     function CopyNet() {
         return _super !== null && _super.apply(this, arguments) || this;

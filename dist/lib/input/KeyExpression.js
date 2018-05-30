@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var Keys_1 = require("./Keys");
-var KeyExpression = (function () {
+var KeyExpression = /** @class */ (function () {
     function KeyExpression(keys, exclusive) {
         this.exclusive = exclusive;
         this.ctrl = keys.some(function (x) { return x === Keys_1.Keys.CTRL; });

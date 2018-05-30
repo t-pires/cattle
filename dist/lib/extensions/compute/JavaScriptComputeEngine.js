@@ -35,7 +35,7 @@ var SupportFunctions = {
         return values.reduce(function (t, x) { return t + x; }, 0);
     },
 };
-var JavaScriptComputeEngine = (function () {
+var JavaScriptComputeEngine = /** @class */ (function () {
     function JavaScriptComputeEngine() {
         this.formulas = {};
         this.cache = {};
@@ -188,7 +188,7 @@ var JavaScriptComputeEngine = (function () {
         for (var _a = 0, values_1 = values; _a < values_1.length; _a++) {
             var v = values_1[_a];
             if (v !== undefined) {
-                return parseFloat(v.replace(/,/g, '')) || 0;
+                return parseFloat(v) || 0;
             }
         }
         return 0;

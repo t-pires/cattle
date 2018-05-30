@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var WatchManager = (function () {
+var WatchManager = /** @class */ (function () {
     function WatchManager() {
         this.observing = {};
         this.observed = {};

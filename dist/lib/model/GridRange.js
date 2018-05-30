@@ -7,7 +7,7 @@ var _ = require("../misc/Util");
 /**
  * Describes a resolveExpr of grid cells.
  */
-var GridRange = (function () {
+var GridRange = /** @class */ (function () {
     function GridRange(values) {
         _.extend(this, values);
     }

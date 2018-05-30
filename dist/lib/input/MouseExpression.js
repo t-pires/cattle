@@ -45,7 +45,7 @@ function divide_expression(value) {
     }
     return parts.slice(0, 2);
 }
-var MouseExpression = (function () {
+var MouseExpression = /** @class */ (function () {
     function MouseExpression(cfg) {
         this.event = null;
         this.button = null;

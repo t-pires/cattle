@@ -15,7 +15,7 @@ var Extensibility_1 = require("../../ui/Extensibility");
 /**
  * Provides a by-the-book implementation of GridCell.
  */
-var DefaultGridCell = (function () {
+var DefaultGridCell = /** @class */ (function () {
     /**
      * Initializes a new instance of DefaultGridCell.
      *
