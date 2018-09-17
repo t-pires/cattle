@@ -23,7 +23,7 @@ var DefaultGridCell_1 = require("../default/DefaultGridCell");
 var Style_1 = require("./Style");
 var Extensibility_1 = require("../../ui/Extensibility");
 var Point_1 = require("../../geom/Point");
-var StyledGridCell = (function (_super) {
+var StyledGridCell = /** @class */ (function (_super) {
     __extends(StyledGridCell, _super);
     /**
      * Initializes a new instance of StyledGridCell.

@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var KeyExpression_1 = require("./KeyExpression");
 var EventTargetEventEmitterAdapter_1 = require("./EventTargetEventEmitterAdapter");
-var KeyInput = (function () {
+var KeyInput = /** @class */ (function () {
     function KeyInput(emitters) {
         this.emitters = emitters;
         this.subs = [];

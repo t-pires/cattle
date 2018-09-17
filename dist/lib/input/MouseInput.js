@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var EventTargetEventEmitterAdapter_1 = require("./EventTargetEventEmitterAdapter");
 var MouseExpression_1 = require("./MouseExpression");
 var KeyCheck_1 = require("./KeyCheck");
-var MouseInput = (function () {
+var MouseInput = /** @class */ (function () {
     function MouseInput(emitters) {
         this.emitters = emitters;
         this.subs = [];

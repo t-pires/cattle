@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var Polyfill_1 = require("../misc/Polyfill");
 var Point_1 = require("../geom/Point");
-var MouseDragEventSupport = (function () {
+var MouseDragEventSupport = /** @class */ (function () {
     function MouseDragEventSupport(elmt) {
         this.elmt = elmt;
         this.shouldDrag = false;

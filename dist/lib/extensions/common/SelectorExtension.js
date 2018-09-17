@@ -38,7 +38,7 @@ var Vectors = {
     sw: new Point_1.Point(-1, 1),
     w: new Point_1.Point(-1, 0),
 };
-var SelectorExtension = (function () {
+var SelectorExtension = /** @class */ (function () {
     function SelectorExtension() {
         this.canSelect = true;
         this.selection = [];
@@ -320,7 +320,7 @@ var SelectorExtension = (function () {
     return SelectorExtension;
 }());
 exports.SelectorExtension = SelectorExtension;
-var Selector = (function (_super) {
+var Selector = /** @class */ (function (_super) {
     __extends(Selector, _super);
     function Selector() {
         return _super !== null && _super.apply(this, arguments) || this;

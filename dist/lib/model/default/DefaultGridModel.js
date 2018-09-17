@@ -5,7 +5,7 @@ var DefaultGridCell_1 = require("./DefaultGridCell");
 /**
  * Provides a by-the-book implementation of GridModel.  All inspection methods use O(1) implementations.
  */
-var DefaultGridModel = (function () {
+var DefaultGridModel = /** @class */ (function () {
     /**
      * Initializes a new instance of DefaultGridModel.
      *

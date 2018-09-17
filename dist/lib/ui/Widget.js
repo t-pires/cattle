@@ -6,7 +6,7 @@ var Dom = require("../misc/Dom");
  * Provides an abstract base class for Widget implementations that are expected to represent Widgets with
  * absolutely positioned root elements.
  */
-var AbsWidgetBase = (function () {
+var AbsWidgetBase = /** @class */ (function () {
     function AbsWidgetBase(root) {
         this.root = root;
     }

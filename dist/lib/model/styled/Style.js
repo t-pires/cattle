@@ -35,7 +35,7 @@ function cascade() {
     };
 }
 exports.cascade = cascade;
-var Cascading = (function () {
+var Cascading = /** @class */ (function () {
     function Cascading(parent, values) {
         this.parent = parent || null;
         if (values) {
@@ -45,7 +45,7 @@ var Cascading = (function () {
     return Cascading;
 }());
 exports.Cascading = Cascading;
-var Style = (function (_super) {
+var Style = /** @class */ (function (_super) {
     __extends(Style, _super);
     function Style() {
         return _super !== null && _super.apply(this, arguments) || this;
@@ -69,7 +69,7 @@ var Style = (function (_super) {
     return Style;
 }(Cascading));
 exports.Style = Style;
-var TextStyle = (function (_super) {
+var TextStyle = /** @class */ (function (_super) {
     __extends(TextStyle, _super);
     function TextStyle() {
         return _super !== null && _super.apply(this, arguments) || this;

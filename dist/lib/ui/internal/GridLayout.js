@@ -4,7 +4,7 @@ var Rect_1 = require("../../geom/Rect");
 var _ = require("../../misc/Util");
 var DefaultGridColumn_1 = require("../../model/default/DefaultGridColumn");
 var DefaultGridRow_1 = require("../../model/default/DefaultGridRow");
-var GridLayout = (function () {
+var GridLayout = /** @class */ (function () {
     function GridLayout(width, height, columns, rows, cells, cellLookup) {
         this.width = width;
         this.height = height;

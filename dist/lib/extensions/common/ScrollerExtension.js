@@ -4,7 +4,7 @@ var Util_1 = require("../../misc/Util");
 var Padding_1 = require("../../geom/Padding");
 var Point_1 = require("../../geom/Point");
 var Dom = require("../../misc/Dom");
-var ScrollerExtension = (function () {
+var ScrollerExtension = /** @class */ (function () {
     function ScrollerExtension(scrollerWidth) {
         this.scrollerWidth = scrollerWidth;
         this.scrollerWidth = Util_1.coalesce(scrollerWidth, detect_native_scroller_width());

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var Keys = (function () {
+var Keys = /** @class */ (function () {
     function Keys() {
     }
     Keys.parse = function (input, thrownOnFail) {

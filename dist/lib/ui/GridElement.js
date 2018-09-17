@@ -30,7 +30,7 @@ var GridRange_1 = require("../model/GridRange");
 var GridKernel_1 = require("./GridKernel");
 var EventEmitter_1 = require("./internal/EventEmitter");
 var GridLayout_1 = require("./internal/GridLayout");
-var GridElement = (function (_super) {
+var GridElement = /** @class */ (function (_super) {
     __extends(GridElement, _super);
     function GridElement(canvas) {
         var _this = _super.call(this) || this;
@@ -452,7 +452,7 @@ function clone(x) {
         return _.shadowClone(x);
     }
 }
-var Buffer = (function () {
+var Buffer = /** @class */ (function () {
     function Buffer(width, height, inflation) {
         this.width = width;
         this.height = height;
@@ -465,7 +465,7 @@ var Buffer = (function () {
     }
     return Buffer;
 }());
-var Visual = (function () {
+var Visual = /** @class */ (function () {
     function Visual(ref, value, left, top, width, height) {
         this.ref = ref;
         this.value = value;
